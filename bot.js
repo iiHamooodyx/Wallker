@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Wallker");
-var prefix = "*";
+var prefix = "$";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
